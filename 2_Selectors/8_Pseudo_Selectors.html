@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo Selector</title>
+    <style>
+        ul li:first-child {
+            color: red;
+        }
+        ul li:last-child {
+            color: blue;
+        }
+        li:first-child {
+            color: green;
+        }
+        li:last-child{
+            color: orange;
+        }
+        ul li:nth-child(2n){
+            color: yellow;
+        }
+        ul li:nth-child(2){
+            color: white;
+        }
+        ul li:nth-child(2n+1){
+            color:indigo
+        }
+        ul li:first-child, ul li:last-child {
+            color: violet;
+        }
+        div p b:last-child{
+            color: pink;
+        }
+        ul li:hover {
+            color: purple;
+        }
+        a:visited{
+            color: crimson;
+        }
+        a:active{
+            color: lim;
+            background-color: orangered;
+        }
+        div::first-letter{
+            color: aqua;
+        }
+        div::first-line{
+            color: lime;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+    <div>Hey!
+        <p>Hello! 
+            <b>Java</b>
+            <b>Python</b>
+            <b>CSS</b>
+            <b>HTML</b>
+        </p>
+    </div>
+    <hr>
+    <a href="https://www.google.com" target="_blank">Google</a>
+</body>
+</html>
