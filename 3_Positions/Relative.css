@@ -1,0 +1,34 @@
+.c1 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: orange;
+    position: relative;
+}
+.c2 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 58px;
+}
+.c3 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: blue;
+    position: relative;
+    top: 92px;
+    left: 110px;
+}
+.c4 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: red;
+    position: relative;
+    top: 135px;
+    left: 172px;
+}

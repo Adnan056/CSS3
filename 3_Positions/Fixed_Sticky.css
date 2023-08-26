@@ -1,0 +1,45 @@
+.c1 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: orange;
+    position: Fixed;
+    height: 200px;
+    width: 100%;
+}
+.c2 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 58px;
+    position: fixed;
+    height: 200px;
+    width: 100%;
+}
+.c3 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: blue;
+    position: relative;
+    top: 92px;
+    left: 110px;
+    position: sticky;
+    height: 200px;
+    width: 100%;
+}
+.c4 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    background-color: red;
+    position: relative;
+    top: 135px;
+    left: 172px;
+    position: sticky;
+    height: 200px;
+    width: 100%;
+}
