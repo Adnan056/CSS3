@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Box Model 2</title>
+    <style>
+        footer {
+            background-color: crimson;
+        }
+        section,div {
+            border: 2px solid navy;
+            padding: 10px;
+            margin: 5px;
+            display: flex;
+            flex: 1;
+        }
+        div {
+            height: 90px;
+        }
+        div:nth-child(1) {
+            display: flex;
+            flex: 1;
+        }
+        div img{
+            width: 400px;
+            height: 90px;
+            object-fit: cover;
+        }
+        section select {
+            width: 200px;
+            height: 20px;
+        }
+        label {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <section>
+            <div><img src="../4_Layout_Models/Screenshot 2023-08-27 at 17-55-15 Free and Customizable Professional Logo Templates Canva.png" alt="logo"></div>
+            <div>
+                <label for="01">Ferrari Cars</label>
+                <select name="" id="01">
+                    <optgroup label="cars">
+                        <option value="">Ferrari Roma</option>
+                        <option value="">Ferrari 296 GTB</option>
+                        <option value="">Ferrari SF90 Stradale</option>
+                        <option value="">Ferrari F8 Tributo</option>
+                        <option value="">Ferrari 812</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="01">BMW Cars</label>
+                <select name="" id="01">
+                    <optgroup label="cars">
+                        <option value="">BMW X1</option>
+                        <option value="">BMW X7</option>
+                        <option value="">BMW X5</option>
+                        <option value="">BMW Z4</option>
+                        <option value="">BMW XM</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="01">Mercedes-Benz Cars</label>
+                <select name="" id="01">
+                    <optgroup label="cars">
+                        <option value="">Mercedes-Benz GLA</option>
+                        <option value="">Mercedes-Benz S-Class</option>
+                        <option value="">Mercedes-Benz E-Class</option>
+                        <option value="">Mercedes-Benz GLS</option>
+                        <option value="">Mercedes-Benz C-Class</option>
+                    </optgroup>
+                </select>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
