@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animations</title>
+    <style>
+        div {
+            border: 2px solid crimson;
+            padding: 15px;
+            margin: 5px;
+        }
+         /* Moving x-axis
+        div:first-child{
+            transform: translate(100px) ;
+        }
+        Moving x-axis and y-axis 
+         div:nth-child(2){
+            transform: translate(100px, 175px);
+        }
+        Moving y-axis
+        div:nth-child(3){
+            transform: translate(0px,175px);
+        }  */
+        div:nth-child(2):hover{
+            transform: scale(1.01,3.0);
+            background-color: aquamarine;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+    <div>Four</div>
+</body>
+</html>
